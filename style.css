@@ -1,0 +1,45 @@
+.image {
+    margin: 1rem 0;
+    height: 200px;
+}
+
+.image-div {
+    background-color: #F7F7F7;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    position: relative;
+}
+
+.price-div {
+    display: flex;
+    justify-content: center;
+}
+
+.old-price {
+    margin: 0 1rem;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.base-price {
+    color: gray;
+}
+
+.percentage-div, .neu-div {
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C10C1E;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+}
+
+.neu-div {
+    background-color: #292A2C;
+    top: 4rem;
+}
